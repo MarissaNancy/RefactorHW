@@ -5,10 +5,12 @@
 }
 
 body {
+ /* Sets background color */
     background-color: #d9dcd6;
 }
 
 header {
+ /* Sets header charachteristics adds padding changes background color and changes font family */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +18,18 @@ header {
 }
 
 header h1 {
+/* Sets heaeder to display inline and changes font size */
     display: inline-block;
     font-size: 48px;
 }
 
 header h1 .seo {
+ /* Uses predefined color for seo class */
     color: #d9dcd6;
 }
 
 header nav {
+ /* changes navigation links to have padding margin along with changing font size and color */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,24 +38,29 @@ header nav {
 }
 
 header nav ul {
+ /* Uses to have no list type */
     list-style-type: none;
 }
 
 header nav ul li {
+ /* Uses to display list and list contents inline with a margin */
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+ /* Uses to define no text decoration and no color */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+ /* Uses code to define font size for paragraphs */
     font-size: 16px;
 }
 
 main {
+/* Defines properties for elements in the main tag */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,22 +70,26 @@ main {
 }
 
 .float-left {
+ /* Uses tags to set margin and float left */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+ /* Uses tags to set margin and float right */
     float: right;
     margin-left: 25px;
 }
 
 .content {
+ /* Defines width and the display to be inline adds margin left attribute as well */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+ /* Defines margin padding as well as predefined color. Height and width defined  */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,54 +101,64 @@ main {
 }
 
 .benefit-lead {
+ /* Adds margin bottom and sets color to white */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+ /* Adds margin bottom and changes color to predefined color */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+ /* Adds margin bottom and sets color to white */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-lead h3 {
+ /* Adds margin bottom and centers text */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-brand h3 {
+ /* Adds margin bottom and centers text */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
+ /* For this defines margin bottom and centers text */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
+ /* Sets display attribute as well as margin and the max width for img */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
+ /* Sets display and margin attribute as well as the max width for img */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
+ /* Sets display attribute and margin. Defines max width for img */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .search-engine-optimization {
+ /* Adds margin padding and height to class Defines font background color and font color */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,6 +168,7 @@ main {
 }
 
 .online-reputation-management {
+ /* Defines margin bottom padding and height for class Background color font color and text color defined as well. */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,6 +178,7 @@ main {
 }
 
 .social-media-marketing {
+ /* Sets margin bottom padding and height for class Also font defined and color set as well as background color*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -162,33 +188,40 @@ main {
 }
 
 .search-engine-optimization img {
+ /* Sets the max height for img */
     max-height: 200px;
 }
 
 .online-reputation-management img {
+ /* Sets the max height for img */
     max-height: 200px;
 }
 
 .social-media-marketing img {
+ /* Sets the max height for img */
     max-height: 200px;
 }
 
 .search-engine-optimization h2 {
+ /* Gives margin bottom attribute and sets font size  */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .online-reputation-management h2 {
+ /* Gives margin bottom attribute and sets font size  */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
+ /* Gives margin bottom attribute and sets font size  */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 footer {
+ /* Defines attributes such as padding clear font family and aligns text to center  */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -196,5 +229,6 @@ footer {
 }
 
 footer h2 {
+ /* Defines font size */
     font-size: 20px;
 }
