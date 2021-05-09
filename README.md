@@ -23,8 +23,3 @@ These resources really helped to guide me and give me a better understanding of 
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf
 https://www.w3schools.com/html/html5_semantic_elements.asp
-
-link to deployed pages
-general description
-user story or acceptance
-screenshot of deployed app use a local relative path and use html source
